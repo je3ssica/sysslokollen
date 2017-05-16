@@ -83,3 +83,13 @@ footer.page-footer {
 h4 {
   text-align: center;
 }
+
+#calendar {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fc-unthemed td.fc-today {
+  background: #f7e3e7;
+}

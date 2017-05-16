@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
 <head>
+
+  <link rel='stylesheet' href='/css/fullcalendar.css' />
   <% include ../partials/head.ejs %>
 
 </head>
@@ -10,15 +12,19 @@
   <div class="row">
 
 
-    <div class="col s11">
       <h4>Välkommen <%=user%></h4>
 
+      <div id='calendar'></div>
 
 
-      </div>
     </div>
 
     <script src="/js/jquery.min.js"></script>
+    <script src='/js/moment.min.js'></script>
+    <script src='/js/fullcalendar.js'></script>
+    <script src='/js/sv.js'></script>
+
+
     <script src="/js/materialize.min.js"></script>
     <script src="/js/script.js"></script>
 
